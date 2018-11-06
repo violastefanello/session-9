@@ -17,6 +17,20 @@
       width: 45rem;
     }
   </style>
+  <script>
+    function carteDeReduction(monAge) {
+    if (monAge <= 27 && monAge >= 12) {
+      alert ("You have the right to a 12-27 Card")
+     } else if (monAge >= 60) {
+          alert ("You have the right to a Senior Card")
+      } else {
+        alert ("You don't have a right to any reduction card")
+        }
+    }
+
+    carteDeReduction(26)
+    alert(carteDeReduction(29))
+  </script>
 </head>
 
 <body>
